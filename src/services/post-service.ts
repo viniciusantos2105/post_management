@@ -1,7 +1,5 @@
-import Post from "../models/post.model";
 import {PostRepositoryInterface} from "../repositories/post-repository-interface";
 import PostRequestDto from "../dto/requests/post-request.dto";
-import {providePostRepository} from "../repositories/provider/repository-provider";
 import PostCreatedResponseDto from "../dto/responses/post-created-response.dto";
 import {adaptPostToCreatedResponse, adaptPostToListResponse, adaptPostToResponse} from "../adapters/post-adapter";
 import PostListResponseDto from "../dto/responses/post-list-response.dto";

@@ -1,4 +1,3 @@
-import {WhereOptions} from "sequelize";
 import Post from "../models/post.model";
 import PostRequestDto from "../dto/requests/post-request.dto";
 
