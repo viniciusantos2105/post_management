@@ -27,7 +27,7 @@ O padrão Bootstrap é usado para inicializar a aplicação. Nesse projeto, a fu
 
 ## Sem Docker
 
-1. Primeiro, instale as dependências do projeto. No diretório raiz do projeto, execute o seguinte comando:
+1. Primeiro, instale as dependências do projeto. No diretório raiz do projeto, execute o seguinte comando no terminal:
 
 ```bash
 npm install
@@ -47,7 +47,7 @@ npm run dev
 
 ## Com Docker
 
-1. Execute o comando:
+1. Execute o comando no power shell:
 
 ```bash
 docker-compose up
