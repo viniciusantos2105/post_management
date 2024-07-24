@@ -33,13 +33,19 @@ O padrão Bootstrap é usado para inicializar a aplicação. Nesse projeto, a fu
 npm install
 ```
 
-2. Em seguida, construa o projeto. Isso irá compilar o código TypeScript para JavaScript.
+2. Segundo, aplique as migrations do projeto. Execute o seguinte comando no terminal:
+
+```bash
+npx sequelize-cli db:migrate
+```
+
+3. Em seguida, construa o projeto. Isso irá compilar o código TypeScript para JavaScript.
 
 ```bash
 npm run build
 ```
 
-3. Agora você pode executar o projeto com o seguinte comando:
+4. Agora você pode executar o projeto com o seguinte comando:
 
 ```bash
 npm run dev
