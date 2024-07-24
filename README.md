@@ -7,6 +7,10 @@ Este projeto é uma API de controle de posts, desenvolvida em TypeScript e JavaS
 ## Adapter
 O padrão Adapter é um padrão de design estrutural que permite que objetos com interfaces incompatíveis trabalhem juntos. Ele envolve a criação de um objeto adaptador que traduz a interface de um objeto para outra interface que o cliente espera.
 
+## Hateoas
+O padrão Hateos é um princípio fundamental que orienta a construção de APIs RESTful. Ele sugere que uma API deve ser auto-descritiva. <br>
+Nesse projeto, eu incluiu links para as ações 'self', 'update' e 'delete' nas respostas da API
+
 ### Middleware
 
 O padrão Middleware é amplamente utilizado no Express para adicionar funcionalidades ao pipeline de processamento de solicitações HTTP. Nesse projeto, usei o middleware para lidar com a serialização JSON das solicitações e respostas, e também para lidar com erros.
